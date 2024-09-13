@@ -80,31 +80,22 @@ body {
                 color: rgb(59, 59, 59);
               }
             }
-
-            h6 {
-              margin-top: 2.5vmax;
-              font-weight: 600;
-              letter-spacing: 0.03vmax;
-            }
-          }
-
-          .imgbox {
-            margin-top: 0.5vmax;
           }
 
           .buttonbox {
             display: flex;
             gap: 1vmax;
-            margin-top: 1.2vmax;
+            margin-top: 3vmax;
 
             button {
-              padding: 1vmax;
-              width: 30%;
+              padding: 1.2vmax;
+              width: 35%;
               font-size: 1.1vmax;
               border: 1px solid #0a004b;
               color: #0a004b;
               cursor: pointer;
               background-color: transparent;
+              border-radius: 5vmax;
 
               &:nth-child(1) {
                 background-color: #0a004b;
@@ -124,11 +115,10 @@ body {
       .row {
         display: flex;
         gap: 15vmax;
-        padding: 1.5vmax 0;
-        padding-left: 4vmax;
+        padding: 1.5vmax 4vmax;
         border-radius: 0.5vmax;
         background-color: #fff;
-        box-shadow: -5px 5px 20px #dadada;
+        box-shadow: -10px 10px 20px #dadada;
 
         .box {
           display: flex;
