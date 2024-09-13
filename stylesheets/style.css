@@ -94,8 +94,19 @@ body {
   background-color: #0a004b;
   color: #fff;
 }
-.wrapper .sec1 .overlay .contentbox .right img {
+.wrapper .sec1 .overlay .contentbox .right {
   height: 30vmax;
+  width: 30vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 47%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.wrapper .sec1 .overlay .contentbox .right img {
+  height: 80%;
+  width: 80%;
 }
 .wrapper .sec1 .overlay .row {
   display: flex;
@@ -129,26 +140,38 @@ body {
 .wrapper .sec2 {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 8vmax 10vmax;
+  padding: 9vmax 10vmax;
 }
-.wrapper .sec2 .left {
-  width: 60%;
-}
-.wrapper .sec2 .left h3 {
+.wrapper .sec2 h3 {
   text-transform: capitalize;
-  margin-bottom: 1.5vmax;
+  margin-bottom: 5vmax;
 }
-.wrapper .sec2 .left .listbox .list {
-  padding: 2vmax;
-  border-bottom: 1px solid #000;
+.wrapper .sec2 .listbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5vmax;
 }
-.wrapper .sec2 .left .listbox .list h6 {
+.wrapper .sec2 .listbox .list {
+  height: 15vmax;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: -10px 10px 20px #dadada;
+  padding: 3vmax;
+}
+.wrapper .sec2 .listbox .list h6 {
   font-weight: 600;
 }
-.wrapper .sec2 .left .listbox .list h5 {
-  margin-top: 0.7vmax;
+.wrapper .sec2 .listbox .list h5 {
+  margin-top: 1vmax;
   line-height: 1.5vmax;
   color: #494949;
 }/*# sourceMappingURL=style.css.map */
