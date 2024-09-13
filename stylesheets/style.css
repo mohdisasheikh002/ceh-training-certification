@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5vmax;
 }
 .wrapper .sec1 .overlay .contentbox .left h3 {
   font-weight: 600;
