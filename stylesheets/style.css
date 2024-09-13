@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+}
+.wrapper .sec1 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10vmax;
+}
+.wrapper .sec1 .clip-path {
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+          clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+  background-color: #0a004b;
+  z-index: -1;
+}/*# sourceMappingURL=style.css.map */
