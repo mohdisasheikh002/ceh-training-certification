@@ -127,8 +127,27 @@ body {
 }
 .wrapper .sec2 {
   width: 100%;
-  padding: 6vmax 10vmax;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8vmax 10vmax;
 }
-.wrapper .sec2 h3 {
+.wrapper .sec2 .left {
+  width: 60%;
+}
+.wrapper .sec2 .left h3 {
   text-transform: capitalize;
+  margin-bottom: 1.5vmax;
+}
+.wrapper .sec2 .left .listbox .list {
+  padding: 2vmax;
+  border-bottom: 2px solid #0a004b;
+}
+.wrapper .sec2 .left .listbox .list h6 {
+  font-weight: 600;
+}
+.wrapper .sec2 .left .listbox .list h5 {
+  margin-top: 0.7vmax;
+  line-height: 1.5vmax;
+  color: #494949;
 }/*# sourceMappingURL=style.css.map */
