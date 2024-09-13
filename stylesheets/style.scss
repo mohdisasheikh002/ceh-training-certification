@@ -14,6 +14,7 @@ body {
 
 .wrapper {
   width: 100%;
+  overflow-x: hidden;
 
   .sec1 {
     position: relative;
@@ -136,8 +137,19 @@ body {
           gap: 1vmax;
 
           i {
-            font-size: 2.5vmax;
             color: rgb(101, 101, 101);
+          }
+
+          .watch {
+            font-size: 2.2vmax;
+          }
+
+          .calender {
+            font-size: 2vmax;
+          }
+
+          .book {
+            font-size: 2vmax;
           }
 
           .textbox {
@@ -147,6 +159,15 @@ body {
           }
         }
       }
+    }
+  }
+
+  .sec2 {
+    width: 100%;
+    padding: 6vmax 10vmax;
+
+    h3 {
+      text-transform: capitalize;
     }
   }
 }

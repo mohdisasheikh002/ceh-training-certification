@@ -13,6 +13,7 @@ body {
 
 .wrapper {
   width: 100%;
+  overflow-x: hidden;
 }
 .wrapper .sec1 {
   position: relative;
@@ -118,9 +119,24 @@ body {
   gap: 1vmax;
 }
 .wrapper .sec1 .overlay .row .box i {
-  font-size: 2.5vmax;
   color: rgb(101, 101, 101);
+}
+.wrapper .sec1 .overlay .row .box .watch {
+  font-size: 2.2vmax;
+}
+.wrapper .sec1 .overlay .row .box .calender {
+  font-size: 2vmax;
+}
+.wrapper .sec1 .overlay .row .box .book {
+  font-size: 2vmax;
 }
 .wrapper .sec1 .overlay .row .box .textbox h5 {
   color: rgb(59, 59, 59);
+}
+.wrapper .sec2 {
+  width: 100%;
+  padding: 6vmax 10vmax;
+}
+.wrapper .sec2 h3 {
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
