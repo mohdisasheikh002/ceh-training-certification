@@ -141,7 +141,7 @@ body {
 }
 .wrapper .sec2 .left .listbox .list {
   padding: 2vmax;
-  border-bottom: 2px solid #0a004b;
+  border-bottom: 1px solid #000;
 }
 .wrapper .sec2 .left .listbox .list h6 {
   font-weight: 600;
